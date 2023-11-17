@@ -12,7 +12,7 @@ class MyWidget(QMainWindow):
 
     def run(self):
         self.label.setText("OK")
-        self.second_form.show()
+        self.open_second_form()
 
     def open_second_form(self):
         self.second_form = SecondForm(self, "Данные для второй формы")
