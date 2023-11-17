@@ -30,6 +30,7 @@ class SecondForm(QWidget):
         self.label = QLabel(args[-1], self)
 
 
+
 if __name__ == '__main__':
     app = QApplication(sys.argv)
     ex = MyWidget()
